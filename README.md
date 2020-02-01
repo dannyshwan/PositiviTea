@@ -1,2 +1,2 @@
 # PositiviTea
-ye McHacks
+ye mchacks
