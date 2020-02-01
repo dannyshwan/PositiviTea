@@ -1,6 +1,6 @@
 import React from 'react';
 import main from '../assets/main-tea.png';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo-straight.png';
 import { Link } from "react-router-dom";
 import '../styles/app.scss';
 

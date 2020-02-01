@@ -12,7 +12,7 @@ class Form extends React.Component {
         <div id='content'>
           <h1>form</h1>
           <div id="Logo">
-              <Link to="/">
+              <Link to="/Results">
                     <img src={main} className="landing-img" alt=""/>
               </Link>
           </div>

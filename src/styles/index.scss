@@ -5,12 +5,14 @@ body {
   font-family: "Patrick Hand", sans;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #cccbfd;
   text-align: center;
+  background-color: #cccbfd;
+  background-image: -webkit-linear-gradient(60deg, #BAB9E6 20%, #CCCBFD 10%);
+  min-height: 100vh;
 }
 
 .logo {
-  margin-bottom: -5em;
+  margin-bottom: -2em;
   width:40%;
 }
 
