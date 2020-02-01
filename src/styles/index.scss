@@ -12,17 +12,17 @@ body {
 }
 
 .logo {
-  margin-bottom: -2em;
-  width:40%;
+  margin-top: 5em;
+  width: 30%;
 }
 
 .landing-img {
-  width: 40%;
+  width: 30%;
   border-radius: 50%;
   -webkit-transition: -webkit-transform .60s ease-in-out;
           transition:         transform .60s ease-in-out;
 }
 .landing-img:hover {
-  -webkit-transform: rotate(15deg);
-          transform: rotate(15deg);
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
 }
