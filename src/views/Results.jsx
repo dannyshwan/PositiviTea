@@ -11,24 +11,24 @@ import {Button} from '@material-ui/core';
 const ENDPOINT = "https://type.fit/api/quotes";
 const TEAS = [
   {
-    name: "Tea 1",
+    name: "Earl Grey Tea",
     image: tea1,
-    fact: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula ultrices tincidunt. Cras cursus nulla suscipit erat porta, sed interdum nisi egestas. Etiam at mollis turpis, at volutpat nulla. Vestibulum varius ac massa vitae sollicitudin. Nam vulputate congue commodo. Vivamus bibendum justo nec orci sollicitudin vehicula. Morbi et commodo velit. Nunc iaculis metus pellentesque. "
+    fact: "Earl Grey tea is a black tea containing bergamot oil, typically considered an English tea. The bergamot in Earl Grey tea has been known to have a calming effect on people, as well as to boost a person’s mood."
   },
   {
-    name: "Tea 2",
+    name: "Green Tea",
     image: tea2,
-    fact: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula ultrices tincidunt. Cras cursus nulla suscipit erat porta, sed interdum nisi egestas. Etiam at mollis turpis, at volutpat nulla. Vestibulum varius ac massa vitae sollicitudin. Nam vulputate congue commodo. Vivamus bibendum justo nec orci sollicitudin vehicula. Morbi et commodo velit. Nunc iaculis metus pellentesque. "
+    fact: "Originally from Asia, green tea is a light tasting tea known for it's various health benefits, including helping with weight loss, reducing risk of cardiovascular disease and more."
   },
   {
-    name: "Tea 3",
+    name: "Milk Tea",
     image: tea3,
-    fact: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula ultrices tincidunt. Cras cursus nulla suscipit erat porta, sed interdum nisi egestas. Etiam at mollis turpis, at volutpat nulla. Vestibulum varius ac massa vitae sollicitudin. Nam vulputate congue commodo. Vivamus bibendum justo nec orci sollicitudin vehicula. Morbi et commodo velit. Nunc iaculis metus pellentesque. "
+    fact: "Various forms of milk tea exist around the work. Milk tea is often sweetened, especially with the recent popularity of bubble tea. Feeling a bit down? Have some milk tea as a treat!"
   },
   {
-    name: "Tea 4",
+    name: "Jasmine Tea",
     image: tea4,
-    fact: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula ultrices tincidunt. Cras cursus nulla suscipit erat porta, sed interdum nisi egestas. Etiam at mollis turpis, at volutpat nulla. Vestibulum varius ac massa vitae sollicitudin. Nam vulputate congue commodo. Vivamus bibendum justo nec orci sollicitudin vehicula. Morbi et commodo velit. Nunc iaculis metus pellentesque. "
+    fact: "Jasmine tea is a common dim sum tea. It is filled with anti-oxidants, promoting brain health and a plethora of other health benefits."
   }
 ];
 
