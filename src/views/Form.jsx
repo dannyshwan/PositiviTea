@@ -2,13 +2,15 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import '../styles/app.scss';
 import { Formik, Form as formikForm } from 'formik';
+import NavBar from '../NavBar.jsx'
 
 
 class Form extends React.Component {
   render() {
     return (
       <div class='container'>
-        <h1>Let's see what tea is for you!</h1>
+      <NavBar/>
+        <h1>Let's give this a Chai...</h1>
         <Formik
           initialValues={{
             firstName: '', 

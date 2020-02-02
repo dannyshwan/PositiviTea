@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
 
 body {
   margin: 0;
-  font-family: "Patrick Hand", sans;
+  font-family: 'Kalam', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -10,21 +10,57 @@ body {
   background-image: -webkit-linear-gradient(60deg, #BAB9E6 20%, #CCCBFD 10%);
   min-height: 100vh;
 }
-
-.logo {
-  margin-top: 5em;
-  width: 30%;
+h2 {
+  margin: 0;
+  padding-left: 5%;
 }
-
 .landing-img {
-  width: 30%;
-  border-radius: 50%;
+  width: 80%;
+  margin: 5em;
   -webkit-transition: -webkit-transform .60s ease-in-out;
           transition:         transform .60s ease-in-out;
 }
 .landing-img:hover {
   -webkit-transform: rotate(-15deg);
           transform: rotate(-15deg);
+}
+
+.logo {
+  width: 80%;
+  margin-top: 8em;
+}
+
+.col1 {
+  flex: 50%;
+  margin-top: 3em;
+  margin-left: 5em;
+  width: 30%;
+}
+.col2 {
+  flex: 50%;
+  margin-right: 4em;
+  margin-top: 5em;
+  width: 30%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  left: 0;
+}
+
+.nav {
+  position: fixed;
+  margin: 1%;
+  width: 5%;
+  left: 0;
+  -webkit-transition: -webkit-transform .40s ease-in-out;
+  transition:         transform .40s ease-in-out;
+  &:hover {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
 }
 
 .result {
@@ -36,11 +72,14 @@ body {
 
 .result-tea {
   width: 30%;
-  border-radius: 50%;
   -webkit-transition: -webkit-transform .60s ease-in-out;
           transition:         transform .60s ease-in-out;
   display: flex;
-  margin: 0 10em;
+  margin: 0 3em;
+  &:hover {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
 }
 
 .tea-description {
