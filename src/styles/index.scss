@@ -8,12 +8,9 @@ body {
   text-align: center;
   background-color: #cccbfd;
   background-image: -webkit-linear-gradient(60deg, #BAB9E6 20%, #CCCBFD 10%);
-  min-height: 100vh;
+  max-height: 100vh;
 }
-h2 {
-  margin: 0;
-  padding-left: 5%;
-}
+
 .landing-img {
   width: 80%;
   margin: 5em;
@@ -37,10 +34,8 @@ h2 {
   width: 30%;
 }
 .col2 {
-  flex: 50%;
-  margin-right: 4em;
+  flex: 50% 1;
   margin-top: 5em;
-  width: 30%;
 }
 
 .navbar {
@@ -85,4 +80,20 @@ h2 {
 .tea-description {
   flex: 0.6;
   text-align: center;
+}
+.form-container{
+  height: 100vh;
+  display: flex;
+  width: 80%;
+  margin: 5em auto;
+  background-color: hsla(0, 0%, 100%, 0.64);;
+}
+
+.result-container {
+  display: block;
+  width: 80%;
+  padding: 3em;
+  margin: 5em auto 3em auto;
+  background-color: hsla(0, 0%, 100%, 0.64);
+  max-height: 100vh;
 }
