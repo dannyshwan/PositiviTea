@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import '../styles/app.scss';
-import { Formik, Form as formikForm } from 'formik';
 import NavBar from '../NavBar.jsx'
 import {Button, TextField, Slider, Typography} from '@material-ui/core';
 
