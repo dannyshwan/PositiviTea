@@ -26,3 +26,24 @@ body {
   -webkit-transform: rotate(-15deg);
           transform: rotate(-15deg);
 }
+
+.result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-tea {
+  width: 30%;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .60s ease-in-out;
+          transition:         transform .60s ease-in-out;
+  display: flex;
+  margin: 0 10em;
+}
+
+.tea-description {
+  flex: 0.6;
+  text-align: center;
+}
