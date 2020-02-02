@@ -13,10 +13,10 @@ class Home extends React.Component {
         <div id='content'>
           <div><img src={logo} className="logo" alt="logo"/></div>
           <div id="Logo">
-                    <Link to="/Form">
-                          <img src={main} className="landing-img" alt=""/>
-                    </Link>
-                </div>
+            <Link to="/Form">
+              <img src={main} className="landing-img" alt=""/>
+            </Link>
+          </div>
         </div>
       </div>
       </body>
